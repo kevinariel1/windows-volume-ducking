@@ -1,0 +1,29 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Nuitka Build Folders (This is the big one!)
+*.build/
+*.onefile-build/
+*.dist/
+
+# Executables
+*.exe
+*.bin
+*.app
+
+# Environments (If you used a venv)
+.venv/
+venv/
+env/
+ENV/
+
+# IDE Specific (Since you use Antigravity/VS Code)
+.vscode/
+.antigravity/
+.idea/
+
+# OS specific
+Thumbs.db
+desktop.ini
